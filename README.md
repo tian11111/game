@@ -62,11 +62,17 @@ landlords-c/
 核心模块说明
 模块	说明
 Card / Suit / Point	定义扑克牌结构与花色点数
+
 Player / Deck	玩家与牌堆结构体
+
 PlayType / Play	出牌类型与出牌行为封装
+
 analyzePlay()	分析玩家选择的牌是否构成合法牌型
+
 canPlayBeat()	判断当前出牌能否压制上一家
+
 shuffleDeck()	Fisher-Yates 洗牌算法
+
 dealCards()	给三位玩家发牌
 
 🤖 AI策略说明（简化版）
@@ -76,12 +82,19 @@ dealCards()	给三位玩家发牌
 🉑可扩展为更智能的AI（欢迎贡献！）
 
 📢 待改进 & 扩展建议
+ 
  🔳支持更多复合牌型（如三带一、飞机等）
+ 
  🔳添加音效与颜色输出（ANSI）
+ 
  🔳实现图形界面（可选 SDL/ncurses）
+ 
  🔳多轮游戏与积分系统
+ 
  🔳更强的AI策略（记忆、合作判断）
+ 
  🔳网络对战支持（socket 编程）
+ 
 
  📜 许可证
 本项目采用 MIT License，欢迎学习、修改与分发。
