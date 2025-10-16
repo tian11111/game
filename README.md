@@ -79,23 +79,6 @@ Windows / Linux / macOS
 | `dealCards()`           | 将洗好的牌平均发给三位玩家                     |
 | `sortHandByPoint()`     | 按点数从小到大排序手牌，便于出牌选择           |
 
-核心模块说明
-模块	说明
-Card / Suit / Point	定义扑克牌结构与花色点数
-
-Player / Deck	玩家与牌堆结构体
-
-PlayType / Play	出牌类型与出牌行为封装
-
-analyzePlay()	分析玩家选择的牌是否构成合法牌型
-
-canPlayBeat()	判断当前出牌能否压制上一家
-
-shuffleDeck()	Fisher-Yates 洗牌算法
-
-dealCards()	给三位玩家发牌
-
-
 
 🤖 AI策略说明（简化版）
 当前 AI 实现为贪心最小出牌策略：
